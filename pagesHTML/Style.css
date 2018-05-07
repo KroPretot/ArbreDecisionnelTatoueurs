@@ -1,0 +1,83 @@
+@font-face {
+	font-family: "KGHAPPY";
+	src: url('fonts/KGHAPPY.ttf');
+}
+@font-face {
+	font-family: "KGHAPPYbis";
+	src: url('fonts/KGHAPPYSolid.ttf');
+}
+/*Page d'accueil*/
+body
+{
+	text-align:center;
+}
+#home
+{
+	font-size: 3em;
+}
+.button
+{
+ border-radius:8px;
+ padding:1% 1% 1% 1%;
+ font-family:KGHAPPY;
+ text-decoration:none;
+ color: blue; 
+}
+.button:hover,.button:focus,.button:active {
+	font-family:KGHAPPYbis;
+}
+
+/*Pages question*/
+h1
+{
+	font-size: 2em;
+	font-family:Verdana;
+	font-weight:normal;
+}
+p{
+	font-size: 1em;
+	font-family:Verdana;
+	font-weight:normal;
+}
+.answers{
+	list-style-type:none;
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+/*Fiche tatoueur*/
+#hashtag
+{
+color: blue;
+}
+.grosseboite
+{
+width:83vw;
+margin-left: auto;
+margin-right: auto;
+text-align:center;
+}
+.visuels
+{
+float:left;
+text-align:center;
+padding-right:1vw; 
+}
+img
+{
+width:20vw;
+}
+
+.dropdown{
+}
+.dropdown-content{
+visibility:hidden;
+}
+.dropdown:hover .dropdown-content{
+visibility: visible;
+}
+
+.seemore
+{
+clear:both;
+}
