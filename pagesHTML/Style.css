@@ -6,6 +6,11 @@
 	font-family: "KGHAPPYbis";
 	src: url('fonts/KGHAPPYSolid.ttf');
 }
+@font-face {
+	font-family: "KGHAPPYter";
+	src: url('fonts/KGHAPPYShadows.ttf');
+}
+
 /*Page d'accueil*/
 body
 {
@@ -17,55 +22,72 @@ body
 }
 .button
 {
- border-radius:8px;
- padding:1% 1% 1% 1%;
  font-family:KGHAPPY;
  text-decoration:none;
- color: blue; 
+ color:white;
+ font-size: 1.5em;
 }
 .button:hover,.button:focus,.button:active {
 	font-family:KGHAPPYbis;
+	color:white;
 }
 
 /*Pages question*/
 h1
 {
+	margin-top:15vh;
 	font-size: 2em;
-	font-family:Verdana;
+	font-family:KGHAPPY;
 	font-weight:normal;
 }
 p{
+	margin-top:3vh;
+	margin-bottom:3vh;
 	font-size: 1em;
 	font-family:Verdana;
 	font-weight:normal;
 }
 .answers{
+	margin-left:25vw;
+	margin-right:25vw;
+	margin-top:5vh;
 	list-style-type:none;
 	display:flex;
-	flex-wrap: wrap;
-	justify-content: center;
+	flex-wrap:wrap;
+	justify-content:center;
+}
+.answers li
+{
+ background-color:black;
+ border-radius:8px;
+ margin-top:1.5vh;
+ margin-top:1.5vh;
+ margin-right:1.5vw;
+ margin-right:1.5vw;
+ padding:2%;
 }
 /*Fiche tatoueur*/
-#hashtag
+.logo
 {
-color: blue;
+width:30vw;
 }
 .grosseboite
 {
-width:83vw;
-margin-left: auto;
-margin-right: auto;
-text-align:center;
+width:90vw;
+margin-left:5vw;
+margin-right:5vw;
+display: flex;
+flex-wrap:wrap;
+justify-content:center;
 }
 .visuels
 {
-float:left;
-text-align:center;
-padding-right:1vw; 
+
 }
 img
 {
 width:20vw;
+min-width:200px;
 }
 
 .dropdown{
