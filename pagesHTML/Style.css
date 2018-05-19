@@ -70,6 +70,7 @@ p{
 .logo
 {
 width:30vw;
+min-width:200px;
 }
 .grosseboite
 {
@@ -80,23 +81,20 @@ display: flex;
 flex-wrap:wrap;
 justify-content:center;
 }
-.visuels
-{
 
-}
-img
+.mini
 {
 width:20vw;
 min-width:200px;
 }
 
-.dropdown{
+.img1bis{
+/*visibility:hidden;*/
+display:none;
 }
-.dropdown-content{
-visibility:hidden;
-}
-.dropdown:hover .dropdown-content{
-visibility: visible;
+.img1:hover .img1bis{
+/*visibility: visible;*/
+display:block;
 }
 
 .seemore
